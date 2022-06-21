@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="hero" class="bg-primary">
+        <div class="container py-5">
+            <div class="row mb-2">
+                <div class="col">
+                    <div class="display-1 text-light text-center">
+                        LK21 KaWe
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-6 d-flex">
+                    <input class="form-control me-2" type="search" id="search" placeholder="Search" aria-label="Search">
+                    <button id="btnSearch" class="btn btn-dark" type="submit">Search</button>
+                </div>
+
+            </div>
+            <div class="row my-3 justify-content-center">
+                <div class="col-auto">
+                    <button id="btnTrending" class="btn btn-dark">Trending</button>
+                    <button id="btnLatest" class="btn btn-dark">Latest</button>
+                    <button id="btnPopular" class="btn btn-dark">Popular</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="trending" class="my-5">
+        <div class="container" id="content">
+
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
